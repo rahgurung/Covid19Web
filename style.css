@@ -1,0 +1,35 @@
+.covid-list {
+    padding: 5px;
+}
+
+.covid-list-header {
+    background-color: #4B9895 !important;
+    border: #4B9895 !important;
+    padding: 5px;
+}
+
+/* .covid-container {
+    margin: 50px;
+} */
+
+.covid-title {
+    color: #4B9895 !important;
+    margin: 90px 0 80px 0;
+    font-family: 'Righteous', cursive;
+}
+
+body {
+    background-color: #F7FAFC;
+}
+
+.covid-danger {
+    color: #E64A35;
+}
+
+.covid-safe {
+    color: green;
+}
+
+a, li {
+    font-family: 'Roboto', sans-serif;
+}

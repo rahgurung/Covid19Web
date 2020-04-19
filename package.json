@@ -1,0 +1,15 @@
+{
+  "name": "covid19web",
+  "version": "1.0.0",
+  "description": "Covid19 stats",
+  "main": "app.js",
+  "scripts": {
+    "start": "http-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rahul Gurung",
+  "license": "MIT",
+  "dependencies": {
+    "http-server": "^0.12.1"
+  }
+}
