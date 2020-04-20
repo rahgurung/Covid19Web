@@ -33,3 +33,7 @@ body {
 a, li {
     font-family: 'Roboto', sans-serif;
 }
+
+[v-cloak] {
+    display: none;
+}
