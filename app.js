@@ -29,12 +29,12 @@ const vm = new Vue({
                             backgroundColor: '#E64A35',
                             borderColor: '#E64A35',
                             data: [
-                                this.chartsdata[0].dailyconfirmed,
-                                this.chartsdata[1].dailyconfirmed,
-                                this.chartsdata[2].dailyconfirmed,
-                                this.chartsdata[3].dailyconfirmed,
+                                this.chartsdata[5].dailyconfirmed,
                                 this.chartsdata[4].dailyconfirmed,
-                                this.chartsdata[5].dailyconfirmed
+                                this.chartsdata[3].dailyconfirmed,
+                                this.chartsdata[2].dailyconfirmed,
+                                this.chartsdata[1].dailyconfirmed,
+                                this.chartsdata[0].dailyconfirmed
                             ],
                             fill: false,
                         }, {
@@ -43,12 +43,12 @@ const vm = new Vue({
                             backgroundColor: 'green',
                             borderColor: 'green',
                             data: [
-                                this.chartsdata[0].dailyrecovered,
-                                this.chartsdata[1].dailyrecovered,
-                                this.chartsdata[2].dailyrecovered,
-                                this.chartsdata[3].dailyrecovered,
+                                this.chartsdata[5].dailyrecovered,
                                 this.chartsdata[4].dailyrecovered,
-                                this.chartsdata[5].dailyrecovered
+                                this.chartsdata[3].dailyrecovered,
+                                this.chartsdata[2].dailyrecovered,
+                                this.chartsdata[1].dailyrecovered,
+                                this.chartsdata[0].dailyrecovered
                             ],
                         }]
                     },
