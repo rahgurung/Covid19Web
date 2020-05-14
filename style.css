@@ -1,11 +1,11 @@
 .covid-list {
-    padding: 5px;
+  padding: 5px;
 }
 
 .covid-list-header {
-    background-color: #4B9895 !important;
-    border: #4B9895 !important;
-    padding: 5px;
+  background-color: #4b9895 !important;
+  border: #4b9895 !important;
+  padding: 5px;
 }
 
 /* .covid-container {
@@ -13,27 +13,40 @@
 } */
 
 .covid-title {
-    color: #4B9895 !important;
-    margin: 90px 0 80px 0;
-    font-family: 'Righteous', cursive;
+  color: #4b9895 !important;
+  margin: 90px 0 80px 0;
+  font-family: 'Righteous', cursive;
 }
 
 body {
-    background-color: #F7FAFC;
+  background-color: #f7fafc;
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+
+body::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
 }
 
 .covid-danger {
-    color: #E64A35;
+  color: #e64a35;
+  font-size: 10px;
 }
 
 .covid-safe {
-    color: green;
+  color: green;
+  font-size: 10px;
 }
 
-a, li {
-    font-family: 'Roboto', sans-serif;
+a,
+li {
+  font-family: 'Roboto', sans-serif;
+}
+
+td {
+    
 }
 
 [v-cloak] {
-    display: none;
+  display: none;
 }
