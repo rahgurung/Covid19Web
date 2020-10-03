@@ -38,13 +38,19 @@ body::-webkit-scrollbar {
   font-size: 10px;
 }
 
+.display-options {
+  margin-top: 1.5em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
 a,
 li {
   font-family: 'Roboto', sans-serif;
 }
 
 td {
-    
 }
 
 [v-cloak] {
