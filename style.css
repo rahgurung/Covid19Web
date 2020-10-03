@@ -45,6 +45,10 @@ body::-webkit-scrollbar {
   align-items: center;
 }
 
+.active-display {
+  filter: invert(100%);
+}
+
 a,
 li {
   font-family: 'Roboto', sans-serif;
